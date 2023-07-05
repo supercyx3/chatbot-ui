@@ -1,6 +1,6 @@
 # Contributing Guidelines
 
-**Welcome to Chatbot UI!**
+**Welcome to ChatCYX UI!**
 
 We appreciate your interest in contributing to our project.
 
