@@ -14,11 +14,11 @@ export enum OpenAIModelID {
   GPT_3_5_16K = 'gpt-3.5-turbo-16k',
   GPT_4 = 'gpt-4',
   GPT_4_0613 = 'gpt-4-0613',
-  GPT_4_32K = 'gpt-4-32k',
+  GPT_4_32K = 'gpt-4-32k-poe',
   GPT_3_5_POE = 'gpt-3.5-turbo-poe',
   GPT_4_POE = 'gpt-4-poe',
   CLAUDE_INSTANT = 'claude-instant',
-  CLAUDE_PLUS = 'claude+',
+  CLAUDE_2_100k = 'claude-2-100k',
   CLAUDE_INSTANT_100K = 'claude-instant-100k',
   TEST_GPT_3_5_POE = 'test-gpt-3.5-turbo-poe',
   TEST_GPT_4_POE = 'test-gpt-4-poe',
@@ -34,7 +34,7 @@ export const fallbackModelID = OpenAIModelID.GPT_3_5;
 export const OpenAIModels: Record<OpenAIModelID, OpenAIModel> = {
   [OpenAIModelID.GPT_3_5]: {
     id: OpenAIModelID.GPT_3_5,
-    name: 'GPT-3.5-TURBO',
+    name: 'GPT-3.5-TURBO',  
     maxLength: 12000,
     tokenLimit: 4000,
   },
@@ -92,11 +92,11 @@ export const OpenAIModels: Record<OpenAIModelID, OpenAIModel> = {
     maxLength: 11000,
     tokenLimit: 11000,
   },
-  [OpenAIModelID.CLAUDE_PLUS]: {
-    id: OpenAIModelID.CLAUDE_PLUS,
-    name: 'CLAUDE+',
-    maxLength: 11000,
-    tokenLimit: 11000,
+  [OpenAIModelID.CLAUDE_2_100k]: {
+    id: OpenAIModelID.CLAUDE_2_100k,
+    name: 'CLAUDE-2-100k',
+    maxLength: 100000,
+    tokenLimit: 100000,
   },
   [OpenAIModelID.CLAUDE_INSTANT_100K]: {
     id: OpenAIModelID.CLAUDE_INSTANT_100K,
