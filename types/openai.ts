@@ -17,9 +17,9 @@ export enum OpenAIModelID {
   GPT_4_32K = 'gpt-4-32k-poe',
   GPT_3_5_POE = 'gpt-3.5-turbo-poe',
   GPT_4_POE = 'gpt-4-poe',
-  LLAMA_2_7B_CHAT ='llama-2-7b-chat'
-  LLAMA_2_13B_CHAT ='llama-2-13b-chat'
-  LLAMA_2_70B_CHAT ='llama-2-70b-chat'
+  LLAMA_2_7B_CHAT ='llama-2-7b-chat',
+  LLAMA_2_13B_CHAT ='llama-2-13b-chat',
+  LLAMA_2_70B_CHAT ='llama-2-70b-chat',
   CLAUDE_INSTANT = 'claude-instant',
   CLAUDE_2_100k = 'claude-2-100k',
   CLAUDE_INSTANT_100K = 'claude-instant-100k',
