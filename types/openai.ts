@@ -17,9 +17,9 @@ export enum OpenAIModelID {
   GPT_4_32K = 'gpt-4-32k-poe',
   GPT_3_5_POE = 'gpt-3.5-turbo-poe',
   GPT_4_POE = 'gpt-4-poe',
-  LLAMA-2-7B-CHAT='llama-2-7b-chat'
-  LLAMA-2-13B-CHAT='llama-2-13b-chat'
-  LLAMA-2-70B-CHAT='llama-2-70b-chat'
+  LLAMA_2_7B_CHAT ='llama-2-7b-chat'
+  LLAMA_2_13B_CHAT ='llama-2-13b-chat'
+  LLAMA_2_70B_CHAT ='llama-2-70b-chat'
   CLAUDE_INSTANT = 'claude-instant',
   CLAUDE_2_100k = 'claude-2-100k',
   CLAUDE_INSTANT_100K = 'claude-instant-100k',
@@ -143,20 +143,20 @@ export const OpenAIModels: Record<OpenAIModelID, OpenAIModel> = {
     maxLength: 30000,
     tokenLimit: 10000,
   },
-  [OpenAIModelID.LLAMA-2-7B-CHAT]: {
-    id: OpenAIModelID.LLAMA-2-7B-CHAT,
+  [OpenAIModelID.LLAMA_2_7B_CHAT]: {
+    id: OpenAIModelID.LLAMA_2_7B_CHAT,
     name: 'LLAMA-2-7B-CHAT',
     maxLength: 24000,
     tokenLimit: 8000,
   },
-  [OpenAIModelID.LLAMA-2-13B-CHAT]: {
-    id: OpenAIModelID.LLAMA-2-13B-CHAT,
+  [OpenAIModelID.LLAMA_2_13B_CHAT]: {
+    id: OpenAIModelID.LLAMA_2_13B_CHAT,
     name: 'LLAMA-2-13B-CHAT',
     maxLength: 24000,
     tokenLimit: 8000,
   },
-  [OpenAIModelID.LLAMA-2-70B-CHAT]: {
-    id: OpenAIModelID.LLAMA-2-70B-CHAT,
+  [OpenAIModelID.LLAMA_2_70B_CHAT]: {
+    id: OpenAIModelID.LLAMA_2_70B_CHAT,
     name: 'LLAMA-2-70B-CHAT',
     maxLength: 24000,
     tokenLimit: 8000,
