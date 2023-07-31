@@ -19,6 +19,7 @@ export interface HomeInitialState {
   currentMessage: Message | undefined;
   prompts: Prompt[];
   temperature: number;
+  allow_fallback: boolean;//新加，true为备用
   showChatbar: boolean;
   showPromptbar: boolean;
   currentFolder: FolderInterface | undefined;
@@ -43,6 +44,7 @@ export const initialState: HomeInitialState = {
   currentMessage: undefined,
   prompts: [],
   temperature: 1,
+  allow_fallback: true,
   showPromptbar: true,
   showChatbar: true,
   currentFolder: undefined,

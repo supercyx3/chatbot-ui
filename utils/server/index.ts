@@ -60,6 +60,7 @@ export const OpenAIStream = async (
       max_tokens: 1000,
       temperature: temperature,
       stream: true,
+      allow_fallback: true,
     }),
   });
 
